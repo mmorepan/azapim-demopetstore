@@ -13,6 +13,9 @@
     {
       "properties": {
         "authenticationSettings": {
+          "oAuth2": {
+            "authorizationServerId": "integrationoauth"
+          },
           "subscriptionKeyRequired": false
         },
         "subscriptionKeyParameterNames": {

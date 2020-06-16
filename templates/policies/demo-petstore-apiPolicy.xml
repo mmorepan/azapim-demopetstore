@@ -13,6 +13,13 @@
 <policies>
 	<inbound>
 		<base />
+		<!-- OAUTH 2.0 VALIDATE -->
+		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Access token invalid">
+			<openid-config url="{{tenand-id-jwt-openid-config-url}}" />
+			<audiences>
+				<audience>{{magento-app-jwt-audience}}</audience>
+			</audiences>
+		</validate-jwt>
 		<!--  Don't expose APIM subscription key to the backend. -->
 		<set-header name="Ocp-Apim-Subscription-Key" exists-action="delete" />
 	</inbound>

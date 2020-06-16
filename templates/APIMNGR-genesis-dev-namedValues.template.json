@@ -13,6 +13,28 @@
     {
       "properties": {
         "tags": [],
+        "secret": true,
+        "displayName": "FsEsbAmdocs-app-jwt-audience",
+        "value": "614bba9b-35b0-41cb-b460-7ba7daff22ab"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/FsEsbAmdocs-app-jwt-audience')]",
+      "type": "Microsoft.ApiManagement/service/properties",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "tags": [],
+        "secret": true,
+        "displayName": "FsEsbAmdocs-secret-auth",
+        "value": "V_Y--D.9o-JWHoX5qM77-IT0~u18X59Y32"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/FsEsbAmdocs-secret-auth')]",
+      "type": "Microsoft.ApiManagement/service/properties",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "tags": [],
         "secret": false,
         "displayName": "magento-addressvalidationmanagement-gis-uri",
         "value": "/wsgisserviceV2/wsgisV2.asmx"
@@ -84,6 +106,17 @@
         "value": "https://login.microsoftonline.com/929616ff-818c-4541-b071-2bd6ab912e88/.well-known/openid-configuration"
       },
       "name": "[concat(parameters('ApimServiceName'), '/wappe-contestadorvirtual-jwt-openid-config-url')]",
+      "type": "Microsoft.ApiManagement/service/properties",
+      "apiVersion": "2019-01-01"
+    },
+    {
+      "properties": {
+        "tags": [],
+        "secret": true,
+        "displayName": "Tenant-ID-2",
+        "value": "https://login.microsoftonline.com/929616ff-818c-4541-b071-2bd6ab912e88/v2.0/.well-known/openid-configuration"
+      },
+      "name": "[concat(parameters('ApimServiceName'), '/Tenant-ID-2')]",
       "type": "Microsoft.ApiManagement/service/properties",
       "apiVersion": "2019-01-01"
     },
