@@ -24,7 +24,7 @@
 		<set-header name="Ocp-Apim-Subscription-Key" exists-action="delete" />
 	</inbound>
 	<backend>
-		<base />
+		<forward-request timeout="5" />
 	</backend>
 	<outbound>
 		<base />
