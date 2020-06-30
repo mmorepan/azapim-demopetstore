@@ -6,13 +6,13 @@
       "value": "APIMNGR-genesis-dev"
     },
     "LinkedTemplatesBaseUrl": {
-      "value": "https://scapimngrintegraciondev.blob.core.windows.net/scaapimngrintdev-blob/armartifacts/demo-petstore"
+      "value": "https://scapimngrintegraciondev.blob.core.windows.net/scaapimngrintdev-blob/armartifacts/templates"
     },
     "LinkedTemplatesUrlQueryString": {
       "value": ""
     },
     "PolicyXMLBaseUrl": {
-      "value": "https://scapimngrintegraciondev.blob.core.windows.net/scaapimngrintdev-blob/armartifacts/demo-petstore/policies"
+      "value": "https://scapimngrintegraciondev.blob.core.windows.net/scaapimngrintdev-blob/armartifacts/templates/policies"
     }
   },
   "resources": []
